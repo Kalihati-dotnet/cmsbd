@@ -1,0 +1,88 @@
+/**
+* x-nav
+*/
+
+nav.x_nav {
+    ul{
+        position: relative;
+        margin: 0;
+        padding: 0;
+
+        li{
+            margin: 0;
+            position: relative;
+            padding: 0 12px;
+            line-height: 20px;
+            border-left:2px dotted rgb(100,100,100);
+
+            &:last-of-type{
+                border-left: 2px solid transparent;
+                &:before {
+                    border-left:2px dotted rgb(100,100,100);
+                    top: 0px;
+                    width: 0.9em;
+                    height: 20px;
+                 }
+            }
+            &:before{
+                content:'';
+                position: absolute;
+                left: -2px;
+                top:19px;
+                width: 0.75em;
+                border: 2px dotted rgb(100,100,100);
+                border-top: 0 none transparent;
+                border-right: 0 none transparent;
+            }
+            > a{
+                background: whitesmoke;
+                color: #2A2A2A;
+                text-decoration: none;
+                display: block;
+                padding: 10px;
+                border-bottom: 1px solid #383838;
+                //border-top: 2px solid #000;
+                 &:hover{
+                    background: #d4d4d4;
+                }
+            }
+        }
+
+        &.level-2 > li > a{
+            color: whitesmoke;
+            background: #0009;
+            display: block;
+            padding: 10px;
+            //border-bottom: 2px solid #383838;
+            border-top: 1px solid #5e6060;
+
+            &:hover{
+                background: #666;
+            }
+            &.active{
+                display: block;
+            }
+        }
+
+        &.level-3 > li > a{
+            color: whitesmoke;
+             background: dimgray;
+             display: block;
+             padding: 10px;
+             border-bottom: 1px solid #747474;
+             border-top: 1px solid #606060;
+             &:hover{
+                color: #383838;
+                background: #c5c5c5;
+            }
+            &.active{
+                display: block;
+            }
+          }
+
+        ul{
+            margin-left: 10px;
+            width: 100%;
+        }
+    }
+}

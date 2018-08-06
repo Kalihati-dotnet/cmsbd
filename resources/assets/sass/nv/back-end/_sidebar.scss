@@ -1,0 +1,70 @@
+.nv__sidebar{
+    position: fixed;
+	left:0;
+	width: 260px;
+	// height: calc(100vh - 100px);
+	min-height: 200px;
+	// padding: 10px;
+    background: #b1b6b6;
+    z-index: 100;
+}
+.sr-btn{
+    width: 40px;
+    height: 40px;
+    padding: 0 1rem;
+    font-size: 2rem;
+    color:#fff;
+}
+
+.shrink-sidebar{
+    width: 80px !important;
+}
+
+.scrollbar{
+    height: calc(100vh - 120px);
+    overflow-y: scroll;
+    border: 2px solid #999;
+    box-shadow: -1px 3px #888888;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 63.75em) {
+
+    .nv__sidebar{
+        height: 100%;
+    }
+    .scrollbar{
+        height: calc(100vh - 60px);
+    }
+
+}
+
+.sidebar-ctrl{
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #236284;
+}
+
+#nvSidebar:target{
+    margin-left: 0;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #b1b6b6; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}

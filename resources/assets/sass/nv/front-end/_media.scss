@@ -1,0 +1,27 @@
+[class^="sr-"]{
+    display: none;
+}
+
+/*1020px*/
+@media screen and (max-width: 63.75em) {
+    [class^="sr-"]{
+        display: block;
+    }
+}
+
+
+
+/*1280px*/
+@media screen and (max-width: 80em) {}
+/*80em=1152px*/
+@media screen and (max-width: 72em) {}
+/*1020px*/
+@media screen and (max-width: 63.75em) {}
+/*936px*/
+@media screen and (max-width: 58.50em) {}
+/*720px*/
+@media screen and (max-width: 45em) {}
+/*608px*/
+@media screen and (max-width: 38em) {}
+/*480px*/
+@media screen and (max-width: 30em) {}

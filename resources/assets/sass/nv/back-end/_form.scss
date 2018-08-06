@@ -1,0 +1,36 @@
+.form-content-sm{
+    max-width: 450px;
+    background: #f5f5f5;
+    padding: 20px;
+    .btn{
+        width: 100%;
+    }
+}
+.form-content-md{
+    max-width: 980px;
+    background: #f5f5f5;
+    padding: 20px;
+    .btn{
+        width: 100%;
+    }
+}
+
+.form-row{
+    margin:0 0 10px 0;
+    background: #232322;
+    color: #fff;
+    padding: 15px;
+}
+.form-control:disabled{
+    background:#dddddd;
+    color:tomato;
+}
+.action-box{
+    display: flex;
+}
+@media screen and (max-width: 63.75em) {
+    .action-box{
+        display: grid;
+    }
+}
+

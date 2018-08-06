@@ -1,0 +1,21 @@
+*{transition: .4s ease;}
+*, *:after, *:before{
+    margin:0;padding:0;
+}
+
+html{
+    font-family:"Helvetica Neue", "Segoe UI", Roboto, vardana, sans-serif;
+    line-height: 1.25;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.btn{
+    border-radius: 0%;
+}

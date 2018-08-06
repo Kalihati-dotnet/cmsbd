@@ -1,0 +1,53 @@
+[class^="sr-"]{
+    display: none;
+}
+.sr-btn-sidebar{
+    color: #fff;
+    font-size: 2rem;
+    background: #26566f;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 1.1;
+}
+
+@media screen and (max-width: 63.75em) {
+    [class^="sr-"]{
+        display: block;
+    }
+    .header-grid{
+        grid-template-columns: 60px 1fr;
+    }
+    a.nv-logo-text{
+        display: none !important;
+    }
+    .nv__sidebar{
+        margin-left: -260px;
+        top:0;
+    }
+    .nv__pageview{
+        margin-left: 0;
+    }
+
+    .nv__sidebar.open{
+        margin-left: 0;
+    }
+    
+    .shrink{
+        margin-left: -260px;
+    }
+    .expand{
+        margin-left: 0 !important;
+    }
+    #btnExpandSidebar{
+        display: none;
+    }
+
+
+    .expend-pageview{
+        margin-left: 0 !important;
+    }
+
+  
+  
+}

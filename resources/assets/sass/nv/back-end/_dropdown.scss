@@ -1,0 +1,38 @@
+.dropdown{
+    position: relative;
+    .dropdown-menu{
+        display: none;
+    }
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: unset !important;
+    left: auto !important;
+    right:0 !important;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    text-align: left;
+    list-style: none;
+    background-clip: padding-box;
+    transform: none !important;
+    background: $primary;
+}
+    
+.dropdown-menu.show {
+    display: block;
+}
+
+ul.dropdown-menu.show li{
+    display: block;
+}
+ul.dropdown-menu.show li>a{
+        display: block;
+        padding: 3px 20px;
+        clear: both;
+        font-weight: normal;
+        line-height: 1.428571429;
+        white-space: nowrap;
+}
