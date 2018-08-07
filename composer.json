@@ -1,9 +1,14 @@
 {
     "name": "cmsbd/cmsbd",
-    "description": "",
-    "keywords": ["framework", "cmsbd"],
+    "description": "A simple laravel based Content Management System...",
     "license": "MIT",
     "type": "project",
+    "authors": [
+        {
+            "name": "Shafiur Shamim",
+            "homepage": "https://github.com/shafiur52/cmsbd"
+        }
+    ],
     "require": {
         "php": ">=7.0.0",
         "laravel/framework": "5.5.*",
